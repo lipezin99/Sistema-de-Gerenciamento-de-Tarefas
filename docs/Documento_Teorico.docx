@@ -1,0 +1,180 @@
+# Documento Teórico
+
+## Sistema de Gerenciamento de Tarefas
+
+### Autor
+
+Felipe Peixinho
+
+---
+
+# 1. Introdução
+
+O presente projeto consiste no desenvolvimento de um sistema de gerenciamento de tarefas utilizando a linguagem Python.
+
+A aplicação tem como objetivo permitir o controle de tarefas através de operações CRUD (Create, Read, Update e Delete), possibilitando ao usuário adicionar, editar, concluir e remover tarefas de maneira simples e organizada.
+
+O projeto foi desenvolvido aplicando conceitos de organização de código, separação de responsabilidades e testes automatizados para garantir o funcionamento correto das funcionalidades implementadas.
+
+---
+
+# 2. Objetivo do Projeto
+
+O objetivo principal do sistema é criar uma aplicação capaz de gerenciar tarefas, permitindo que informações sejam cadastradas e manipuladas de forma eficiente.
+
+Com o sistema, é possível:
+
+* Criar novas tarefas;
+* Alterar informações de tarefas existentes;
+* Marcar tarefas como concluídas;
+* Remover tarefas cadastradas.
+
+Além disso, o projeto busca aplicar boas práticas de desenvolvimento de software através da organização dos arquivos e da utilização de testes automatizados.
+
+---
+
+# 3. Tecnologias Utilizadas
+
+As tecnologias utilizadas no desenvolvimento do projeto foram:
+
+## Python
+
+Linguagem de programação utilizada para desenvolver toda a lógica da aplicação.
+
+## Pytest
+
+Framework utilizado para criação e execução dos testes automatizados do sistema.
+
+## Git e GitHub
+
+Ferramentas utilizadas para controle de versão e armazenamento do projeto.
+
+## GitHub Actions
+
+Ferramenta utilizada para automatizar a execução dos testes através de integração contínua.
+
+---
+
+# 4. Estrutura do Projeto
+
+O projeto foi organizado da seguinte forma:
+
+```
+Projeto unifecaf
+
+├── src
+│   ├── crud.py
+│   ├── tarefa.py
+│   └── __init__.py
+│
+├── tests
+│   └── test_crud.py
+│
+├── docs
+│
+├── main.py
+├── requirements.txt
+├── pytest.ini
+├── README.md
+└── .gitignore
+```
+
+A divisão dos arquivos permite uma melhor organização e manutenção do código.
+
+---
+
+# 5. Funcionamento do Sistema
+
+O sistema funciona através do gerenciamento de uma lista de tarefas.
+
+Cada tarefa possui informações importantes, como:
+
+* Título;
+* Status de conclusão.
+
+As operações disponíveis são:
+
+## Adicionar tarefa
+
+Permite criar uma nova tarefa e armazená-la no sistema.
+
+## Editar tarefa
+
+Permite modificar o título de uma tarefa já cadastrada.
+
+## Concluir tarefa
+
+Altera o status da tarefa indicando que ela foi finalizada.
+
+## Remover tarefa
+
+Exclui uma tarefa existente da lista.
+
+---
+
+# 6. Organização do Código
+
+O código foi dividido em módulos para facilitar o desenvolvimento.
+
+## Arquivo tarefa.py
+
+Responsável pela criação da estrutura da tarefa, contendo os atributos necessários para representar uma atividade.
+
+## Arquivo crud.py
+
+Responsável pelas operações principais do sistema:
+
+* Adicionar;
+* Editar;
+* Concluir;
+* Remover.
+
+Essa separação permite que cada parte do sistema tenha uma responsabilidade específica.
+
+---
+
+# 7. Testes Automatizados
+
+Foram desenvolvidos testes automatizados utilizando o framework Pytest.
+
+Os testes têm como objetivo verificar se as principais funcionalidades estão funcionando corretamente.
+
+Foram realizados testes para:
+
+* Adição de tarefas;
+* Edição de tarefas;
+* Conclusão de tarefas;
+* Remoção de tarefas.
+
+Resultado da execução:
+
+```
+4 passed
+```
+
+O resultado demonstra que todas as funcionalidades testadas foram executadas corretamente.
+
+---
+
+# 8. Integração Contínua
+
+O projeto possui uma configuração de GitHub Actions responsável por executar automaticamente os testes.
+
+Sempre que o código é enviado para o repositório, o processo realiza:
+
+1. Download do código;
+2. Configuração do ambiente Python;
+3. Instalação das dependências;
+4. Execução dos testes automatizados.
+
+Essa prática ajuda a garantir maior qualidade e segurança durante o desenvolvimento.
+
+---
+
+# 9. Conclusão
+
+O desenvolvimento deste projeto possibilitou aplicar conceitos importantes da Engenharia de Software, como organização de código, desenvolvimento baseado em testes e controle de versão.
+
+O sistema desenvolvido atende aos requisitos propostos, permitindo o gerenciamento de tarefas através de operações CRUD e garantindo seu funcionamento por meio de testes automatizados.
+
+A utilização de ferramentas como Pytest e GitHub Actions contribui para um processo de desenvolvimento mais confiável e organizado.
