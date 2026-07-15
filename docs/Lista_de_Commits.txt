@@ -1,0 +1,19 @@
+1. Inicialização do projeto Python de gerenciamento de tarefas
+
+2. Criação da estrutura de pastas src, tests e docs
+
+3. Implementação da classe Tarefa
+
+4. Desenvolvimento das operações CRUD de tarefas
+
+5. Criação da interface principal do sistema
+
+6. Implementação dos testes automatizados com Pytest
+
+7. Configuração do pytest.ini e organização dos testes
+
+8. Adição do README e documentação do projeto
+
+9. Configuração do GitHub Actions para testes automáticos
+
+10. Finalização do projeto e ajustes finais

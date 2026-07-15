@@ -1,0 +1,20 @@
+Mudança de Escopo do Projeto
+
+Durante o desenvolvimento do Sistema de Gerenciamento de Tarefas,
+foi realizada uma alteração no escopo inicial do projeto.
+
+Inicialmente, o sistema tinha como objetivo apenas realizar o cadastro
+e armazenamento de tarefas. Durante a implementação, foi identificada
+a necessidade de adicionar novas funcionalidades para melhorar o
+controle das atividades.
+
+A mudança realizada foi a inclusão das funcionalidades de edição,
+conclusão e remoção de tarefas, transformando o sistema em uma aplicação
+CRUD completa.
+
+Essa alteração permitiu melhorar a experiência do usuário e tornou o
+sistema mais próximo de uma aplicação real de gerenciamento de tarefas.
+
+A mudança foi implementada mantendo a organização do código e garantindo
+o funcionamento das novas funcionalidades através dos testes automatizados
+com Pytest.
