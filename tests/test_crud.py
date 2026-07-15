@@ -40,10 +40,3 @@ def test_remover_tarefa():
     remover_tarefa(1)
 
     assert len(tarefas) == 0
-
-    def test_prioridade_tarefa():
-    crud = CRUD()
-    crud.adicionar_tarefa("Entregar relatório", prioridade="Alta")
-    tarefas_altas = crud.listar_por_prioridade("Alta")
-    assert len(tarefas_altas) == 1
-    assert tarefas_altas[0].titulo == "Entregar relatório"

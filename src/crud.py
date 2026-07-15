@@ -38,6 +38,3 @@ def concluir_tarefa(indice):
         print("Tarefa concluída!")
     else:
         print("Índice inválido.")
-
-        def listar_por_prioridade(self, prioridade: str):
-    return [t for t in self.tarefas if t.prioridade == prioridade]
